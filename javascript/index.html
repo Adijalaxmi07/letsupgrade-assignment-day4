@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function rock(){
+           document.getElementById("date_time").innerHTML=Date();
+        }
+    </script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            justify-content: center;
+            text-align: center;
+            display:flexbox;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="rock()">click me</button>
+    <p id="date_time"></p>
+</body>
+</html>
